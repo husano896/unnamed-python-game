@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -102,3 +102,16 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Unfinished UPG assets
+
+Audio/
+Graphics/
+Others/
+Tilesets/
+
+#3rd party files shouldn't be included
+
+*.dll
+*.otf
+*.png
